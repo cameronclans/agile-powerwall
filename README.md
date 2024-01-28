@@ -27,8 +27,10 @@ using
 	            tariff_name: Agile
 	            tariff_provider: Octopus
 	            import_mpan: <mpan>
+	            #export_mpan: <empan>
 	            tariff_breaks: [0.10, 0.20, 0.30]
 	            import_tariff_pricing: ["average", "average", "maximum", "maximum"]
+	            #export_tariff_pricing: ["average", "average", "maximum", "maximum"]
 	            plunge_pricing_tariff_breaks: [0.0, 0.10, 0.30]
 
 ## Configuration
